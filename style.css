@@ -1005,6 +1005,25 @@ img { max-width: 100%; }
   color: #fff;
   margin: 0 auto;
 }
+.team-avatar-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.team-header-logo {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.team-header-img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(11, 79, 222, 0.15);
+}
 .team-badge {
   position: absolute;
   bottom: -4px; right: -4px;
